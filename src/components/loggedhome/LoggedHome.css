@@ -1,0 +1,46 @@
+.page{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://cdn.pixabay.com/photo/2016/08/10/17/47/aircraft-1583871__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    height:80vh;
+}
+
+.homepage{
+    width:85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.big-text {
+    color: #fff;
+    font-size: 300%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.small-text{
+    color: rgb(179, 178, 178);
+    font-size: 200%;
+    text-align: center;
+}
+
+.button{
+    margin-top: 5%;
+}
+
+.secondpage{
+    height: 80vh;
+    background-color: rgb(27, 150, 150);
+}
+
+.findflights{
+    height:100vh;
+    padding: 5% 10%;
+}
